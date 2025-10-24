@@ -81,17 +81,21 @@ class module_10_CardWidget extends StatelessWidget {
                                   color: Colors.grey.shade400,
                                   borderRadius: BorderRadius.circular(4),
                                 ),
-                                child: Row(
-                                  children: [
-                                    Icon(Icons.groups, size: 10, color: Colors.black54),
-                                    Text(seat,
-                                      style: const TextStyle(
-                                        fontSize: 10,
-                                        color: Colors.black87,
-                                        fontWeight: FontWeight.w500
+                                child: Padding(
+                                  padding: const EdgeInsets.only(left: 2),
+                                  child: Row(
+
+                                    children: [
+                                      Icon(Icons.groups, size: 10, color: Colors.black54),
+                                      Text(seat,
+                                        style: const TextStyle(
+                                          fontSize: 10,
+                                          color: Colors.black87,
+                                          fontWeight: FontWeight.w500
+                                        ),
                                       ),
-                                    ),
-                                  ],
+                                    ],
+                                  ),
                                 ),
                               ),
                             ),
